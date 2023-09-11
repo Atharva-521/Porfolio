@@ -1,0 +1,318 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(14, 14, 72);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0px 23px;
+}
+
+/* To show anchor tag normally */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(149, 91, 204);
+}
+
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 0px;
+}
+.firstSection > div {
+  width: 40%;
+}
+.firstleft {
+  margin: 183px 0px;
+  font-size: 3rem;
+}
+.firstright {
+  margin-left: 30px;
+  margin-top: 44px;
+}
+.firstright img {
+  width: 80%;
+}
+.secondSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  margin:15px 0px;
+  
+}
+
+
+.secondleft{
+  width: 30%;
+}
+
+.secondleft img{
+  mix-blend-mode:lighten;
+  filter: brightness(1.2);
+}
+.secondright{
+  width: 40%;
+  margin-right: 59px;
+}
+
+.secondright h1{
+  font-size: 2rem;
+  margin-top: 60px ;
+  margin-bottom: 23px;
+  color: #f1e1e1;
+}
+.secondright p{
+  color: #ad8c8c;
+}
+
+.thirdSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  height: 90vh;
+  margin:23px 0px;
+  justify-content: space-around;
+}
+.thirdleft{
+  width: 30%;
+  margin: 210px 0 0 147px;
+}
+.box{
+  
+  height: 85%;
+  background-color: white;
+  width: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 50px 676px 0 0;
+}
+.horizontal{
+  height: 2px;
+  background-color: white;
+  width: 10rem;
+}
+
+.logo{
+  position: relative;
+  object-fit: cover;
+  width:30px;
+  height: 30px;
+  top: -13px;
+  left: -36px;
+
+}
+.desc{
+  position: relative;
+  top: -86px;
+  left: 173px;
+  width: 20rem;
+}
+
+.desc h2{
+  color: #f3d6d6;
+}
+
+.desc p{
+  color: grey
+}
+
+.fourthSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  height: 100vh;
+  margin:23px 0px;
+  justify-content: space-around;
+}
+
+.card{
+  position: relative;
+  height: 314px;
+  width: 249px;
+  
+  background-color: white;
+  top: 28px;
+  left: 161px;
+}
+
+.c4{
+  position: relative;
+  top: 394px;
+  left: -910px;
+}
+.top{
+  display: flex;
+  width:249px;
+  height: 30%;
+  background-image: linear-gradient(to right,rgb(153,153,218),rgb(12, 12, 104));
+  justify-content: center;
+  align-items: center;
+}
+
+.top h3{
+  position: relative;
+  left: 23px;
+  font-size: 1.5rem;
+  
+}
+
+.imgdiv{
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(174 174 211);
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  top: 48px;
+  left: -65px;
+}
+
+.cimg{
+  position: relative;
+  object-fit: cover;
+  width:30px;
+  height: 30px;
+  
+}
+
+.bottom p{
+  padding: 30px;
+  height: 220px;
+  color: black;
+  font-weight: 600;
+}
+
+.fault{
+  position: relative;
+  left: -37px;
+}
+
+.fault1{
+  position: relative;
+  left: -82px;
+}
+
+.fifthSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  height: 55vh;
+  margin:23px 0px;
+  justify-content: space-around;
+}
+
+.img{ 
+  position: relative;
+  left: 68px;
+  width: 37%;
+  height: 100%;
+  
+  
+}
+
+
+ .img img{
+  width: 100%;
+  object-fit:cover;
+  height: 631px;
+}
+
+
+
+.form{
+  width:30% ;
+  /* background-color: beige; */
+}
+
+.icons{
+  position: relative;
+  width: 15%;
+  top: 285px;
+  left: -26px;
+}
+
+.icons h2{
+  color:white ;
+}
+form{
+  position: relative;
+  top:204px;
+}
+
+.form h2{
+  position: relative;
+  top: 135px;
+  font-size: 3rem;
+  color: white;
+}
+.user,.email,.message{
+  color: white;
+  background-color: rgb(0,0,40);
+  border: none;
+  border-bottom: 2px solid white;
+  width: 113%;
+  height: 30px;
+  margin-bottom: 50px;
+}
+.about{
+  padding: 10px;
+}
+
+::placeholder{
+  font-style: italic;
+}
+
+.button{
+  position: relative;
+  width: 150px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: bisque;
+  left: 130px;
+}
+
+.button:hover{
+  background-color: white;
+}
+
+.socials{
+  height: 100px;
+  width: 200px;
+  
+}
+.git{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 236px;
+  left: 105px;
+}
+
+.fgit{
+  left:102px;
+}
+
+main hr {
+  border: 0;
+  background-color: rgb(126 126 211);
+  height: 1.3px;
+  margin: 78px 75px 0px 75px;
+}
